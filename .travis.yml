@@ -4,7 +4,7 @@ notifications:
   email: false
 
 install:
-  - go get -v github.com/GeertJohan/fgt github.com/golang/lint/golint ./...
+  - go get -v github.com/GeertJohan/fgt golang.org/x/lint/golint ./...
 
 script:
   - fgt golint
